@@ -2,6 +2,7 @@
 
 This model is a fine-tuned version of [ntu-spml/distilhubert](https://huggingface.co/ntu-spml/distilhubert) on the marsyas/gtzan dataset.
 It achieves the following results on the evaluation set:
+ Link: [Click Here](https://huggingface.co/itsindro/distilhubert-finetuned-gtzan)
 - Loss: 0.5878
 - Accuracy: 0.83
 
