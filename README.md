@@ -1,34 +1,3 @@
----
-library_name: transformers
-license: apache-2.0
-base_model: ntu-spml/distilhubert
-tags:
-- generated_from_trainer
-datasets:
-- marsyas/gtzan
-metrics:
-- accuracy
-model-index:
-- name: distilhubert-finetuned-gtzan
-  results:
-  - task:
-      name: Audio Classification
-      type: audio-classification
-    dataset:
-      name: marsyas/gtzan
-      type: marsyas/gtzan
-      config: all
-      split: train
-      args: all
-    metrics:
-    - name: Accuracy
-      type: accuracy
-      value: 0.83
----
-
-<!-- This model card has been generated automatically according to the information the Trainer had access to. You
-should probably proofread and complete it, then remove this comment. -->
-
 # distilhubert-finetuned-gtzan
 
 This model is a fine-tuned version of [ntu-spml/distilhubert](https://huggingface.co/ntu-spml/distilhubert) on the marsyas/gtzan dataset.
