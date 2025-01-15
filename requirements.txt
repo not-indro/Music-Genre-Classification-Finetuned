@@ -1,0 +1,12 @@
+datasets 
+transformers 
+torch 
+soundfile 
+evaluate 
+accelerate 
+matplotlib 
+torchaudio 
+fastapi 
+uvicorn 
+huggingface_hub
+transformers
